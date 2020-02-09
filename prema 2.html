@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>Css Layout</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <style type="text/css">
+            body{
+               margin:auto 10%; 
+            }
+							ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: blue;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: green;
+}
+            
+            #wraffer{
+                background-color:white;
+                width:100%; 
+                height:auto; 
+            }
+            
+            #header_wraffer{
+                background-color:white;
+                width:100%;
+                height:200px; 
+            }
+            
+            #logo{
+                background:white;
+                width:20%;
+                height: 200px;
+                float: left;
+                margin-right:0.3%;  
+                
+            }
+            #banner{
+                background:white;
+                width:79.7%;
+                height: 200px;
+                float:left; 
+                
+            }
+            
+            #menu{
+                background:black;
+                width:100%;
+                height:70px; 
+                margin-top:3px;
+                
+                
+            }
+            
+            #content_wraffer{
+                background-color:white;
+                width:100%;
+                height:500px; 
+                 margin-top:3px;
+            }
+            
+            #left_content{
+                background-color:white;
+                width:25%;
+                height:500px; 
+                float:left;
+                
+            }
+            #mid_content{
+                background-color:white;
+                width:49.4%;
+                height:500px; 
+                 float:left;
+                 margin-left:0.3%; 
+                 margin-right:0.3%; 
+            }
+            #right_content{
+                background-color:white;
+                width:25%;
+                height:500px; 
+                 float:left; 
+            }
+            
+            #footer{
+                background:black;
+                width:100%;
+                height:70px; 
+                margin-top:3px;
+				text-align:center;
+            }
+        </style>
+    </head>
+    <body>
+        <div id="wraffer">
+            
+            
+            <div id="header_wraffer">
+                <div id="logo"> <img src="aiub logo.png"height="200px" width="100%"></div>
+                <div id="banner"><img src="banner.png"height="200px" width="100%"></div>
+            </div>
+            
+            
+            
+
+			<div id="menu">
+			<ul>
+  <li><a class="active" href="#HOME">HOME</a></li>
+  <li><a href="#ABOUT">ABOUT</a></li>
+  <li><a href="#ACADEMICS">ACADEMICS</a></li>
+  <li><a href="ADMINISTRATION">ADMINISTRATION</a></li>
+  <li><a href="#FACULTIES">FACULTIES</a></li>
+  <li><a href="#OFFICES">OFFICES</a></li>
+  <li><a href="#ADMISSION">ADMISSION</a></li>
+  <li><a href="#CONTACT US">CONTACT US</a></li>
+  
+  
+</ul>
+  
+  <div id="content_wraffer">
+                <div id="left_content"> <h3 >DEPARTMENT OF COMPUTER SCIENCE &  ENGINNERING: <h3> <p>A Bachelor of Science in Computer Engineering focuses on the relationship between computer hardware and software systems.
+
+A bachelor of science degree in computer engineering typically combines software-related classes in networks, operating systems, programming languages and data structures with hardware-related courses covering microcomputer systems, memory components, microprocessors, fiber optics and integrated circuits.  </p>  </div>
+                <div id="mid_content"> <h3 >DEPARTMENT OF ELECTRICAL & ELECTRONIC  ENGINNERING: <h3> <p> Electrical and Electronic Engineering is concerned with the design, research, development, planning, manufacture and management of systems and devices relying on electricity and light to transmit data and power which underpin modern economies and contribute to the quality of human life. Many of these devices rely on the use of new information and computer-intensive technologies. An Electrical Engineer may be responsible for research, design, manufacture and operation of communication systems, satellite, microwave, optical, telecommunications, broadcasting, radio and television, solar energy conversion, electric power generation, transmission and distribution, computer networks, microprocessors, instrumentation and consumer devices, automatic control systems and robotics, electronic and integrated circuits, image processing systems, electrical machines, electromechanical equipment, biomedical engineering and many other areas.</P>
+
+
+</div>
+                <div id="right_content"> <h3 >DEPARTMENT OF BUSINESS ADMINISTRATION: <h3> <p>The BBA program prepares students to lead, build and manage enterprises that create value for stakeholders in a dynamic and global economy. By encouraging independent thinking, self-assessment and learning the curriculum provides students with the tools for success in their career paths. It also instills awareness of ethical issues and sensitivity towards society and the environment. The BBA program consists of 126 credit hours. These credit hours represent general education foundation courses of (31 X 3) 93 credit hours, major elective courses (10 X 3) 30 credit hours and 3 credit hours Internship.</P> </div>
+            </div>
+            
+            <div id='footer'> <h5 style="color:white ">  <button type="button" onclick="alert('Hello world!')">visit our website!</button>  
+ <h5> <a style="color:red"> powered by@Atia Ayesha Prema  </a>  </div>
+        </div>
+    </body>
+</html>
